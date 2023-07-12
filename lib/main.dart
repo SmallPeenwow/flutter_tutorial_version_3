@@ -33,7 +33,7 @@ class _RootPageState extends State<RootPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: ,
+        child: const Icon(Icons.add),
       ),
     );
   }
