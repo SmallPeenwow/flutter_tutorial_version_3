@@ -29,7 +29,11 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
           ),
           const Divider(
             color: Colors.black,
-          )
+          ),
+          Container(
+            color: Colors.blueGrey,
+            child: const Text('This is a text widget'),
+          ),
         ],
       ),
     );
