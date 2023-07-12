@@ -29,7 +29,7 @@ class _RootPageState extends State<RootPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: ,
+        title: const Text('Flutter'),
       ),
     );
   }
