@@ -24,6 +24,9 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
       body: Column(
         children: [
           Image.asset('images/for_honor_chicken.png'),
+          const Divider(
+            color: Colors.black,
+          )
         ],
       ),
     );
