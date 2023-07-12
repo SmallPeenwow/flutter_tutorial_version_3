@@ -22,7 +22,9 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
         ),
       ),
       body: Column(
-        children: [],
+        children: [
+          Image.asset('images/for_honor_chicken.png'),
+        ],
       ),
     );
   }
