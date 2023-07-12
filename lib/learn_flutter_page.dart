@@ -15,7 +15,9 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
         title: const Text('Learn Flutter'),
         automaticallyImplyLeading: false,
         leading: IconButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
           icon: const Icon(Icons.arrow_back_ios),
         ),
       ),
