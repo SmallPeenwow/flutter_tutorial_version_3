@@ -56,6 +56,12 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
             },
             child: const Text('Outlined Button'),
           ),
+          TextButton(
+            onPressed: () {
+              debugPrint('Text Button');
+            },
+            child: const Text('Text Button'),
+          ),
         ],
       ),
     );
