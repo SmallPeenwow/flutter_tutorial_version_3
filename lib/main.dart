@@ -9,8 +9,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: RootPage(),
+    return MaterialApp(
+      theme: ThemeData(),
+      home: const RootPage(),
     );
   }
 }
