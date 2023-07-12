@@ -31,6 +31,8 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
             color: Colors.black,
           ),
           Container(
+            margin: const EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(10.0),
             color: Colors.blueGrey,
             width: double.infinity,
             child: const Center(
