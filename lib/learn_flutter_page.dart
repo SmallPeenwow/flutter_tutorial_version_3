@@ -62,6 +62,20 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
             },
             child: const Text('Text Button'),
           ),
+          const Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Icon(
+                Icons.local_fire_department,
+                color: Colors.blue,
+              ),
+              Text('Row widget'),
+              Icon(
+                Icons.local_fire_department,
+                color: Colors.blue,
+              ),
+            ],
+          ),
         ],
       ),
     );
