@@ -23,6 +23,7 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
           },
           icon: const Icon(Icons.arrow_back_ios),
         ),
+        actions: [],
       ),
       body: SingleChildScrollView(
         child: Column(
